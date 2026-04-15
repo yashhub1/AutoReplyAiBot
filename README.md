@@ -1,32 +1,48 @@
-# AutoReply AI Bot 
+# AutoReply AI Bot 🤖
 
 A Python-based AI chatbot that generates automated responses using OpenAI API.
 
 ##  Features
-- Real-time chatbot interaction
-- Uses OpenAI API
-- Simple command-line interface
-- Easy to customize
+
+* Real-time chatbot interaction
+* Uses OpenAI API
+* Simple command-line interface
+* Easy to customize
 
 ##  Tech Stack
-- Python
-- OpenAI API
 
-##  How to Run
+* Python
+* OpenAI API
 
-1. Clone the repo:
-  `git clone https://github.com/yashhub1/AutoReplyAiBot.git`
+## ▶ How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yashhub1/AutoReplyAiBot.git
+cd AutoReplyAiBot
+```
 
 2. Install dependencies:
-   pip install openai
+
+```bash
+pip install openai
+```
 
 3. Run the bot:
-   python AiBot.py
 
-## 📌 Future Improvements
-- GUI interface
-- Web version
-- Memory-based responses
+```bash
+python ai_bot.py
+```
+
+
+##  Future Improvements
+
+* GUI interface (Tkinter)
+* Web version (Flask)
+* Memory-based responses
+* Better conversation handling
 
 ##  Author
+
 Yash Surpaithankar
