@@ -1,0 +1,11 @@
+# Environment variables - Keep your API key safe!
+.env
+
+# Python files to ignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
