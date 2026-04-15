@@ -9,7 +9,7 @@ client = OpenAI()
 pyautogui.click(1292, 1044)
 time.sleep(3)
 
-# 🔥 Function to check sender
+#  Function to check sender
 def is_last_message_from_sender(chat_text, my_name="Yash"):
     lines = chat_text.strip().split("\n")
 
@@ -27,7 +27,7 @@ def is_last_message_from_sender(chat_text, my_name="Yash"):
     return sender != my_name
 
 
-# 🔥 Memory to avoid duplicate replies
+#  Memory to avoid duplicate replies
 last_seen_message = ""
 
 while True:
@@ -45,7 +45,7 @@ while True:
     chat_history = pyperclip.paste()
     print("\n--- Chat ---\n", chat_history)
 
-    # 🔥 Check new message
+    #  Check new message
     if is_last_message_from_sender(chat_history) and chat_history != last_seen_message:
 
         print("✅ New message detected → replying...")
@@ -120,5 +120,5 @@ Reply:
     else:
         print("⏳ No new message")
 
-    # ⏳ Wait before next check
+    #  Wait before next check
     time.sleep(2)
